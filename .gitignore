@@ -1,0 +1,46 @@
+
+# Dataset files — do not upload large or sensitive data
+data/
+*.csv
+*.zip
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model artifacts — can be large
+models/
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
