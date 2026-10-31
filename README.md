@@ -64,6 +64,9 @@ The deployed Random Forest model was evaluated on the held-out test set at a dec
 The threshold reflects a trade-off between detecting fraud and generating false alarms. These results are from a held-out test set and do not guarantee the same performance in production.
 
 ## Streamlit Application
+**Live Demo:** [Credit Card Fraud Detection App](https://credit-card-fraud-detection-pezfcmmas5xay83dycsy2e.streamlit.app/)
+
+Try the deployed application to explore individual transaction predictions and batch CSV fraud detection.
 
 The application supports:
 
