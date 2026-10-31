@@ -17,14 +17,19 @@ env/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Model artifacts — can be large
-models/
+# Model artifacts
+# Keep the deployment model available for Git tracking
 *.pkl
 *.joblib
 *.h5
 *.keras
 *.pt
 *.pth
+
+# Ignore models except the production model
+models/*
+!models/credit_card_fraud_random_forest.joblib
+
 
 # Environment variables and secrets
 .env
